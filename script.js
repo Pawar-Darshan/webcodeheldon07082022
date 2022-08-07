@@ -37,7 +37,7 @@ pokInfoSection.append(divSearch);
 let inputSearch = document.createElement("input");
 inputSearch.setAttribute("id", "pokemonName");
 inputSearch.setAttribute("type", "text");
-inputSearch.setAttribute("placeholder", "Pokemon Name");
+inputSearch.setAttribute("placeholder", "Pokemon Name ex. Ditto");
 divSearch.appendChild(inputSearch);
 
 //Adding search button
